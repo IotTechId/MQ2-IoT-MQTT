@@ -5,7 +5,7 @@ This project is a real-time gas monitoring system using the **MQ2 sensor**, an *
 ## 🔧 Features
 
 - Read gas concentration from the MQ2 sensor
-- Publish data over MQTT (`sensor/mq2`)
+- Publish data over MQTT 
 - Real-time monitoring with a responsive web dashboard (HTML + Chart.js)
 - Status indicator: SAFE, WARNING, DANGER
 - Automatic sound alarm on high gas concentration
@@ -28,6 +28,9 @@ This project is a real-time gas monitoring system using the **MQ2 sensor**, an *
 - WiFi connection
 - (Optional) Voltage divider for voltage monitoring
 
+## Hardware Schematic
+![Hardware Schematic](./image/schematic.png)
+
 ### 2. Flash the Firmware
 
  - Open the `.ino` file in Arduino IDE
@@ -45,6 +48,8 @@ This project is a real-time gas monitoring system using the **MQ2 sensor**, an *
 - Open the `index.html` file in a browser
 - The dashboard will auto-connect to the MQTT broker and display real-time gas and voltage data
 
+## Website Preview
+![Web Dashboard Preview](./image/web-dashboard.png)
 
 ## 📄 License
 
@@ -52,7 +57,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Yudha Pratama**  
+**Satria Yudha Purnomo**  
 [GitHub](https://github.com/IotTechId) • [LinkedIn](https://www.linkedin.com/in/satria-yudha-77344435b/) • [Email](mailto:satriadiwan80@gmail.com)
 
 
