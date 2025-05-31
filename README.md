@@ -1,4 +1,4 @@
-![Github Release Date](https://img.shields.io/github/release-date/IotTechId/MQ2-IoT-MQTT) ![GitHub License](https://img.shields.io/github/license/IotTechId/MQ2-IoT-MQTT)
+![GitHub License](https://img.shields.io/github/license/IotTechId/MQ2-IoT-MQTT)
 
 
 # MQ2-IoT-MQTT
