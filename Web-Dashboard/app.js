@@ -42,7 +42,7 @@ function updateGauge(value) {
     status = 'SAFE';
   } else if (value < 600) {
     bg = '#ffa500';
-    status = 'ALERT';
+    status = 'WARNING';
   } else {
     bg = '#ff0000';
     status = 'DANGER!';
