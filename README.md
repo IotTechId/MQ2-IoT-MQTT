@@ -1,3 +1,6 @@
+![Github Release Date](https://img.shields.io/github/release-date/IotTechId/MQ2-IoT-MQTT) ![GitHub License](https://img.shields.io/github/license/IotTechId/MQ2-IoT-MQTT)
+
+
 # MQ2-IoT-MQTT
 
 This project is a real-time gas monitoring system using the **MQ2 sensor**, an **ESP8266** microcontroller, and the **MQTT** protocol. Data is published to an MQTT broker and displayed on a responsive web dashboard.
