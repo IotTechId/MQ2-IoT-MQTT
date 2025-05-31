@@ -57,7 +57,7 @@ function updateGauge(value) {
   statusText.textContent = status;
   statusText.style.color = bg;
 
-  if (status === 'BAHAYA!') {
+  if (status === 'DANGER!') {
     if (!isDangerPlaying) {
       dangerAudio.play().catch(err => console.error('Audio error:', err));
       isDangerPlaying = true;
