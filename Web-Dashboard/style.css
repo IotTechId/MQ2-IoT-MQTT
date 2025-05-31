@@ -1,0 +1,76 @@
+body {
+  background: #0d1b2a;
+  color: #00b4d8;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  background: #1b263b;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  padding: 32px 24px;
+  max-width: 400px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00b4d8;
+}
+
+.meter-row {
+  background: #415a77;
+  border-radius: 10px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.meter-label {
+  font-size: 1rem;
+  color: #adb5bd;
+}
+
+.meter-value {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #00d4ff;
+}
+
+#gaugeChart {
+  width: 200px;
+  height: 100px;
+}
+
+#statusText {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .dashboard-container {
+    padding: 20px;
+  }
+
+  .meter-value {
+    font-size: 1.2rem;
+  }
+
+  .dashboard-title {
+    font-size: 1.3rem;
+  }
+}
