@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MQ2 Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <div class="dashboard-title">MQ2 Gas Sensor</div>
+    <div class="meter-row">
+      <span class="meter-label">Gas Consentration</span>
+      <span class="meter-value" id="mq2">0</span>
+    </div>
+    <canvas id="gaugeChart" width="200" height="100"></canvas>
+    <div id="statusText">SAFE</div>
+  </div>
+
+  <!-- Audio Danger -->
+  <audio id="dangerSound" src="<Fill with Your Danger Sounds>" preload="auto" loop></audio>
+
+  <!-- MQTT and Chart.js -->
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
